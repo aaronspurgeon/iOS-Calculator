@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.calculator {
+    height: 600px;
+    width: 400px;
+    background: blue;
+}
+
+
+
+.results button {
+   width: 400px;
+   height: 100px;
+   background: black;
+   color: white;
+   font-size: 50px;
+   text-align: right;
+}
+
+.clear {
+    display: flex;
+    flex-grow: 0;
+}
+
+.clear button {
+    /* width: 166px;; */
+    height: 100px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.divide {
+    width: 25%;
+    background: #DF974C;
+    
+}
+
+.clear .other-button {
+    width: 25%;
+}
+.clear .c-button {
+    /* flex-grow: 2; */
+    width: 50%;
+}
+
+.multiply-row {
+    display: flex;
+}
+
+.multiply-row button {
+    width: 25%;
+    height: 100px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.subtract-row {
+    display: flex;
+}
+
+.subtract-row button {
+    width: 25%;
+    height: 100px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.plus-row {
+    display: flex;
+}
+
+.plus-row button {
+    width: 25%;
+    height: 100px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.equals-row {
+    display: flex;
+}
+
+.equals-row button {
+    /* width: 25%; */
+    height: 100px;
+    border: 1px solid black;
+    /* background: #D8D9DB */
+}
+
+.equal-0-btn {
+    width: 75%;
+    font-size: 40px;
+}
+
+.equals {
+    width: 25%;
+    background: #DF974C;
+    font-size: 40px;
+}
+
+.plus {
+    background: #DF974C;
+}
+
+.subtract {
+    background: #DF974C;
+}
+
+.multiply {
+    background: #DF974C;
+}
+
+/* refactor this later ^^*/
