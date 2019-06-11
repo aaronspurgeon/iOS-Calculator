@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,45 @@
     <link rel="stylesheet" href="styles.css">
     <title>iOS Calculator</title>
 </head>
+
 <body>
     <div class="container">
-    <div class="calculator">
-        <div class="results">
-            <button>0</button>
+        <div class="calculator">
+            <div class="screen">
+                0
+            </div>
+            <section class="calc-buttons">
+                <div class="calc-row">
+                    <button class="double calc-button">C</button>
+                    <button class="calc-button">←</button>
+                    <button class="calc-button">&divide;</button>
+                </div>
+                <div class="calc-row">
+                    <button class="calc-button">7</button>
+                    <button class="calc-button">8</button>
+                    <button class="calc-button">9</button>
+                    <button class="calc-button">x</button>
+                </div>
+                <div class="calc-row">
+                    <button class="calc-button">4</button>
+                    <button class="calc-button">5</button>
+                    <button class="calc-button">6</button>
+                    <button class="calc-button">-</button>
+                </div>
+                <div class="calc-row">
+                    <button class="calc-button">1</button>
+                    <button class="calc-button">2</button>
+                    <button class="calc-button">3</button>
+                    <button class="calc-button">+</button>
+                </div>
+                <div class="calc-row">
+                    <button class="triple calc-button">0</button>
+                    <button class="calc-button">=</button>
+                </div>
         </div>
-        <div class="clear">
-                <button class="c-button">C</button>
-                <button class="other-button">&larr;</button>
-                <button class="divide">&divide;</button>
-        </div>
-        <div class="multiply-row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="multiply">x</button>
-        </div>
-        <div class="subtract-row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="subtract">-</button>
-        </div>
-        <div class="plus-row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="plus">+</button>
-        </div>
-        <div class="equals-row">
-            <button class="equal-0-btn">0</button>
-            <button class="equals">=</button>
-        </div>
+        </section>
+
     </div>
-    
-</div>
 
 
 
@@ -53,6 +57,7 @@
 
 
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
